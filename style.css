@@ -1,0 +1,483 @@
+/* CSS Reset  */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif
+ }
+
+ 
+ body,h1,h2,h3,h4,h5,h6 {
+     font-weight: 400;
+ }
+
+/* Navigation section  */
+.top{
+    display: flex;
+    background-color: #fff!important;
+    padding-bottom: 23px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 24px;
+    
+}
+.menubar{
+    display: none;
+}
+.rnav{
+    display: flex;
+    justify-content: right;
+}
+.nav-item{
+    padding: 0px 0px 0px 35px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+#home{
+    /* padding: 0px 0px 0px 35px;
+    margin-right: 20px; */
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Header Section  */
+.header{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 53px;
+}
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background : url('/header.jpg') no-repeat center center/cover;
+    height: 100%; 
+    width: 100%;
+    z-index: -1;
+}
+.para{
+    color: black;
+    text-decoration: none;
+    /* border: 2px solid #f2f0f0!important; */
+    padding: 16px;
+    background-color: lightgrey;
+    font-size: 19px;
+}
+.para:hover{
+    opacity: 0.60;
+}
+.h1{
+    font-size: 69px;
+}
+.par{
+    font-size: 22px;
+    margin-top: -25px;
+}
+.sociallinks {
+
+    margin-top: 107px;
+    color: gainsboro;
+}
+
+/* About Section  */
+.about-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+    margin-bottom: 70px;
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.comp i{
+    font-size: 70px;
+}
+.para-2{
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+}
+
+/* Promo Section  */
+.Promo{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #f1f1f1!important;
+    margin-top: 142px;
+    padding-left: 11px;
+}
+.img-1{
+    border-radius: 23px;
+    max-width: 85%;
+    height: auto;
+    margin-bottom: 90px;
+    margin-top: 110px;
+    margin-left: 45px;
+}
+
+.design-1{
+    padding-top: 83px;
+    margin-right: 32px;
+}
+/* .a-para{
+    border: 1px solid black;
+    background-color: black;
+    padding: 12px;
+    display: inline-block;
+} */
+
+.a-para a{
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid black; */
+    background-color: black;
+    padding: 12px;
+    display: inline-block;
+    margin-top: 22px;
+}
+.a-para a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Team Section  */
+.clients{
+    display: flex;
+    margin-right: 30px;
+}
+.container img{
+    width: 100%;
+}
+.hnp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 42px;
+}
+.h-third{
+    font-size: 24px;
+    margin-left: 12px;
+}
+.para-00{
+    color: grey;
+    margin-left: 12px;
+}
+.para-01{
+    margin-left: 12px;
+}
+.btn{
+    padding: 11px;
+    border: none;
+    width: 92%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn:hover{
+    color: black;
+    background-color: lightgrey;
+}
+.container{
+    width: auto;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin-left: 38px;
+    opacity: 0.8;
+}
+
+/* Promo Statistics */
+.statis{
+    display: flex;
+    text-align: center;
+    color: #fff!important;
+    background-color: #616161!important;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    margin-top: 118px;
+    justify-content: space-around;
+}
+.statis span{
+    font-size: 35px;
+}
+
+/* Work Section  */
+.work-1{
+    display: flex;
+    justify-content: space-around;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    margin-bottom: 30px;
+}
+
+/* Skill Section  */
+.skills{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.Skill{
+    display: flex;
+}
+.skills-bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 14px;
+}
+.camera-fa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.skill-content-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+}
+.persentage{
+        color: white;
+        padding: 0px;
+        background: #9e9e9e!important;
+}
+.range{
+    width: 88%;
+    padding: 5px;
+    background: #616161!important;
+}
+.range-1{
+    width: 82%;
+    padding: 5px;
+    background: #616161!important;
+}
+.range-2{
+    width: 77%;
+    padding: 5px;
+    background: #616161!important;
+}
+.camera-fa p{
+    margin-right: 481px;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+/* Pricing section */
+#pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: gray;
+    padding-bottom: 70px;
+}
+.container-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+} 
+.list ul li {
+    padding: 20px 110px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: white;
+}
+.basic{
+   
+    background: black !important;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 32px;
+    margin-right: -54px;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    width: 35% !important;
+    border-left: 1px solid gray !important ;
+    border-right: 1px solid gray !important;
+}
+.pro{
+    background: red !important;
+    color: white;
+    width: 31.% !important;
+    height: 80px;
+    margin-top: -18px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 0px;
+    border-left: 1px solid gray !important;
+    border-right: 1px solid gray !important;
+    padding-top: 49px !important;
+}
+#pricing p{
+    margin: 0px 0px 50px 0px;
+    color: white;
+    font-size: 16px;
+}
+#pricing h3{
+    color: white;
+}
+.list ul li button{
+    padding: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.signbtn{
+    background-color: #f0eded !important;
+}
+.signbtn button:hover{
+    color: black;
+    background-color: lightgrey;
+}
+.list ul li span{
+    color: grey;
+}
+
+/* Contact Section  */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-bottom: 100px;
+}
+.section-9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.contact-hnp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+.input-1{
+    padding: 9px;
+    width: 97%;
+    margin-left: 12px;
+    font-size: 17px;
+    /* border: none; */
+    font: inherit;
+}
+.send-btn{
+    margin-left: 12px;
+    padding: 16px;
+    border: none;
+    background: black;
+    color: white;
+    margin-bottom: 67px;
+    cursor: pointer;
+}
+.send-btn:hover{
+    color: black;
+    background-color: lightgrey;
+}
+
+.icons-0{
+    display: flex;
+    margin-left: 20px;
+}
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.fa-phone-alt:before {
+    content: "\f879";
+    font-size: 36px;
+    padding-right: 17px;
+}
+.fa-envelope-open:before {
+    content: "\f0e0";
+    font-size: 30px;
+    padding-right: 22px;
+}
+.form-1{
+    margin-top: 40px;
+}
+
+/* Image Location  */
+.contact-9 img{
+    width: 100%;
+    opacity: 0.8;
+}
+
+/* footer  */
+.footerr{
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+#top{
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: black;
+    margin-top: 42px;
+    width: 8%;
+    margin-left: 561px;
+}
+#top:hover{
+    color: black;
+    background-color: lightgrey;
+}
+.sociallinks-1{
+    text-align: center;
+    margin-top: 27px;
+    font-size: larger;
+}
+.copyright{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

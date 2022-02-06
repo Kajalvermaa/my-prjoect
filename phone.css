@@ -1,0 +1,140 @@
+/* Navigation Section  */
+.nav-item{
+    display: none;
+} 
+.menubar{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+#home {
+    margin-top: 5px;
+    margin-left: -10px;
+    font-size: large;
+}
+
+/* Header section  */
+.header {
+    margin-left: 23px;
+    margin-top: 24px;
+}
+.h1 {
+    font-size: 31px;
+}
+.par {
+    font-size: 16px;
+    margin-top: -22px;
+}
+.para {
+    padding: 12px;
+    font-size: 15px;
+}
+
+/* About Section  */
+h3 {
+    font-size: 26px;
+}
+.comp {
+    flex-direction: column;
+}
+
+/* Promo Section  */
+.Promo {
+    flex-direction: column;
+}
+.img-1 {
+    max-width: 94%;
+    margin-top: 1px;
+    margin-left: -3px;
+}
+
+/* Team Section  */
+.clients {
+    flex-direction: column;
+}
+.container{
+    margin-bottom: 16px!important;
+}
+
+/* Promo Section  */
+.statis{
+    flex-direction: column;
+}
+.span{
+    padding: 12px;
+}
+
+/* Work Section  */
+.work-1 {
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+/* Skill Section  */
+
+.Skill {
+    flex-direction: column;
+}
+.skills-bar{
+    width: 85%;
+    margin-left: 28px;
+}
+.skill-content-section {
+    margin-left: auto;
+    text-align: center;
+
+}
+
+/* Pricing Section  */
+.container-3 {
+    flex-direction: column;
+    width: 92%;
+    margin-left: -34px;
+}
+.list ul li {
+    padding: 17px 96px;
+}
+
+/* Contact Section  */
+ .kaj{
+     margin: auto;
+ }
+
+ .icons-0 {
+    padding-top: 27px;
+    margin-bottom: -24px;
+}
+
+.fa-map-marker-alt:before {
+    font-size: 28px;
+}
+
+.fa-phone-alt:before {
+    font-size: 28px;
+}
+
+.fa-envelope-open:before {
+    font-size: 23px;
+    padding-right: 19px;
+}
+
+.input-1 {
+    padding: 5px;
+    width: 89%;
+}
+
+.send-btn {
+    padding: 11px;
+}
+ 
+/* Footer  */
+
+#top {
+    width: 26%;
+    margin-left: 118px;
+}
+
+
